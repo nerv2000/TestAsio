@@ -1,0 +1,57 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "classname": {
+      "type": "string",
+      "description": "packet class 이름 정의"
+    },
+    "startno": {
+      "type": "integer",
+      "description": "packet 시작 번호 (다른패킷과 중복 되지 않게 사용합니다)"
+    },
+    "functions": {
+      "type": "array",
+      "description": "packet 함수 목록",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "packet 함수 이름"
+          },
+          "parameters": {
+            "type": "array",
+            "description": "packet 함수 파라미터 목록",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "description": "packet 함수 파라미터 자료형"
+                },
+                "name": {
+                  "type": "string",
+                  "description": "packet 함수 파라미터 변수 이름"
+                }
+              },
+              "required": [
+                "type",
+                "name"
+              ]
+            }
+          }
+        },
+        "required": [
+          "name",
+          "parameters"
+        ]
+      }
+    }
+  },
+  "required": [
+    "classname",
+    "startno",
+    "functions"
+  ]
+}

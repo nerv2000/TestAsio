@@ -20,40 +20,28 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "라이브러리", "라이�
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
-		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1D2358A6-80E4-4892-9E29-D8E9CA47F411}.Debug|Any CPU.ActiveCfg = Debug|x64
 		{1D2358A6-80E4-4892-9E29-D8E9CA47F411}.Debug|x64.ActiveCfg = Debug|x64
 		{1D2358A6-80E4-4892-9E29-D8E9CA47F411}.Debug|x64.Build.0 = Debug|x64
-		{1D2358A6-80E4-4892-9E29-D8E9CA47F411}.Release|Any CPU.ActiveCfg = Release|x64
 		{1D2358A6-80E4-4892-9E29-D8E9CA47F411}.Release|x64.ActiveCfg = Release|x64
 		{1D2358A6-80E4-4892-9E29-D8E9CA47F411}.Release|x64.Build.0 = Release|x64
-		{7304E7F0-5E33-42E7-9A38-D1E5AB46FBF8}.Debug|Any CPU.ActiveCfg = Debug|x64
 		{7304E7F0-5E33-42E7-9A38-D1E5AB46FBF8}.Debug|x64.ActiveCfg = Debug|x64
 		{7304E7F0-5E33-42E7-9A38-D1E5AB46FBF8}.Debug|x64.Build.0 = Debug|x64
-		{7304E7F0-5E33-42E7-9A38-D1E5AB46FBF8}.Release|Any CPU.ActiveCfg = Release|x64
 		{7304E7F0-5E33-42E7-9A38-D1E5AB46FBF8}.Release|x64.ActiveCfg = Release|x64
 		{7304E7F0-5E33-42E7-9A38-D1E5AB46FBF8}.Release|x64.Build.0 = Release|x64
-		{C28BA09F-C9F1-4B8A-8095-338D3B29294C}.Debug|Any CPU.ActiveCfg = Debug|x64
 		{C28BA09F-C9F1-4B8A-8095-338D3B29294C}.Debug|x64.ActiveCfg = Debug|x64
 		{C28BA09F-C9F1-4B8A-8095-338D3B29294C}.Debug|x64.Build.0 = Debug|x64
-		{C28BA09F-C9F1-4B8A-8095-338D3B29294C}.Release|Any CPU.ActiveCfg = Release|x64
 		{C28BA09F-C9F1-4B8A-8095-338D3B29294C}.Release|x64.ActiveCfg = Release|x64
 		{C28BA09F-C9F1-4B8A-8095-338D3B29294C}.Release|x64.Build.0 = Release|x64
-		{C6ADE3F3-EA25-4097-A3DB-F10C23FF5F03}.Debug|Any CPU.ActiveCfg = Debug|x64
 		{C6ADE3F3-EA25-4097-A3DB-F10C23FF5F03}.Debug|x64.ActiveCfg = Debug|x64
 		{C6ADE3F3-EA25-4097-A3DB-F10C23FF5F03}.Debug|x64.Build.0 = Debug|x64
-		{C6ADE3F3-EA25-4097-A3DB-F10C23FF5F03}.Release|Any CPU.ActiveCfg = Release|x64
 		{C6ADE3F3-EA25-4097-A3DB-F10C23FF5F03}.Release|x64.ActiveCfg = Release|x64
 		{C6ADE3F3-EA25-4097-A3DB-F10C23FF5F03}.Release|x64.Build.0 = Release|x64
-		{C5C2EF9C-D318-483B-857D-E0FDF666DC39}.Debug|Any CPU.ActiveCfg = Debug|x64
 		{C5C2EF9C-D318-483B-857D-E0FDF666DC39}.Debug|x64.ActiveCfg = Debug|x64
 		{C5C2EF9C-D318-483B-857D-E0FDF666DC39}.Debug|x64.Build.0 = Debug|x64
-		{C5C2EF9C-D318-483B-857D-E0FDF666DC39}.Release|Any CPU.ActiveCfg = Release|x64
 		{C5C2EF9C-D318-483B-857D-E0FDF666DC39}.Release|x64.ActiveCfg = Release|x64
 		{C5C2EF9C-D318-483B-857D-E0FDF666DC39}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection

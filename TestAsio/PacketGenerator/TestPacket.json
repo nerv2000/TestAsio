@@ -1,0 +1,28 @@
+﻿{
+  "classname": "Test",
+  "startno": 1000,
+  "functions": [
+    {
+      "name": "ReqTestPacket",
+      "parameters": [
+        {
+          "type": "int",
+          "name": "sendValue"
+        }
+      ]
+    },
+    {
+      "name": "AckTestPacket",
+      "parameters": [
+        {
+          "type": "int",
+          "name": "recvValue"
+        },
+        {
+          "type": "int",
+          "name": "addValue"
+        }
+      ]
+    }
+  ]
+}
