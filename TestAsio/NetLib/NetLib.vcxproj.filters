@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="NetServerLib">
+      <UniqueIdentifier>{b974498b-388f-4ad6-9866-26bb6e06bc1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetClientLib">
+      <UniqueIdentifier>{e099b073-cdb2-4fff-b2c1-648a90a6bba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetCommonLib">
+      <UniqueIdentifier>{1460344a-b7f0-4614-968f-a1b6e9b10dfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="기본파일">
+      <UniqueIdentifier>{ff3f3015-5dcf-4241-95c7-3c644cab75bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>기본파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>기본파일</Filter>
+    </ClInclude>
+    <ClInclude Include="NetServer.h">
+      <Filter>NetServerLib</Filter>
+    </ClInclude>
+    <ClInclude Include="NetServerAccept.h">
+      <Filter>NetServerLib</Filter>
+    </ClInclude>
+    <ClInclude Include="NetCommon.h">
+      <Filter>NetCommonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="NetPacket.h">
+      <Filter>NetCommonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketBuffer.h">
+      <Filter>NetCommonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketStream.h">
+      <Filter>NetCommonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorFunction.h">
+      <Filter>NetCommonLib</Filter>
+    </ClInclude>
+    <ClInclude Include="NetServerSession.h">
+      <Filter>NetServerLib</Filter>
+    </ClInclude>
+    <ClInclude Include="NetClient.h">
+      <Filter>NetClientLib</Filter>
+    </ClInclude>
+    <ClInclude Include="NetThread.h">
+      <Filter>NetCommonLib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>기본파일</Filter>
+    </ClCompile>
+    <ClCompile Include="NetServer.cpp">
+      <Filter>NetServerLib</Filter>
+    </ClCompile>
+    <ClCompile Include="NetPacket.cpp">
+      <Filter>NetCommonLib</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketStream.cpp">
+      <Filter>NetCommonLib</Filter>
+    </ClCompile>
+    <ClCompile Include="NetServerAccept.cpp">
+      <Filter>NetServerLib</Filter>
+    </ClCompile>
+    <ClCompile Include="NetServerSession.cpp">
+      <Filter>NetServerLib</Filter>
+    </ClCompile>
+    <ClCompile Include="NetClient.cpp">
+      <Filter>NetClientLib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="PacketStream.inl">
+      <Filter>NetCommonLib</Filter>
+    </None>
+  </ItemGroup>
+</Project>
